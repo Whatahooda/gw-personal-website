@@ -1,0 +1,183 @@
+/* Secondary Color: #1E943F */
+
+body{
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2, h3{
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+ul{
+  list-style-type: none;
+}
+
+/* Page Top Styles */
+#banner{
+  width: 100%;
+  height: 670px;
+  background: url("../img/banner-img-1.jpeg");
+  background-size: cover;
+  background-position: 50%;
+}
+
+#banner h1{
+  padding: 25px;
+  border: 2px solid;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  position: absolute;
+  left: 35%;
+  top: 250px;
+  margin: 0;
+  font-size: 2em;
+}
+
+#banner a{
+  width: 100px;
+  height: 25px;
+  padding: 5px;
+  position: relative;
+  top: 70%;
+  left: 46%;
+  border: 2px solid;
+  font-size: 25px;
+}
+
+/* Header Styles */
+
+header{
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  background-color: rgba(10,10,10,0.8)
+}
+
+.logo{
+  float: left;
+  width: 200px;
+  height: 100px;
+}
+
+.logo h1{
+  position: relative;
+  left: 30px;
+  padding-top: 35px;
+}
+
+.menu{
+  float: left;
+  padding: 30px 30px;
+}
+
+.menu li{
+  display: inline-block;
+  padding-left: 50px;
+  font-weight: bold;
+}
+
+.menu li:hover {
+  color: #1E943F;
+}
+
+/* Home Styles */
+
+#home{
+  width: 100%;
+  height: 400px;
+  background-color: #eee;
+}
+
+#home article{
+  width: 20%;
+  height: 200px;
+  float: left;
+  display: inline-block;
+  padding: 150px 85px;
+}
+
+/* About Styles */
+
+#about{
+  width: 100%;
+  height: 700px;
+}
+
+.about-me{
+  width: 70%;
+  height: 150px;
+  position: relative;
+  left: 150px;
+  top: 100px;
+}
+
+.about-me h1{
+  text-align: center;
+  position: relative;
+}
+
+.about-me p{
+  position: relative;
+}
+
+#about article{
+  width: 25%;
+  height: 100;
+  display: inline-block;
+  padding: 10px 70px;
+  position: relative;
+  left: 100px;
+  top: 200px;
+}
+
+.about-picture{
+  width: 30%;
+  height: 700px;
+  background: url("../img/tree.jpg");
+  background-position: 90% 0%;
+}
+
+.about-info {
+  width: 70%;
+  height: 700px;
+  position: relative;
+  top: -700px;
+  left: 30%;
+  background-color: #ccc;
+}
+
+/* Skills Styles */
+
+#skills{
+  width: 100%;
+  height: 700px;
+  background-color: #eee;
+}
+
+.skills-contact{
+  border: 2px solid;
+  width: 135px;
+  position: relative;
+  left: 435px;
+  top: 50px;
+}
+
+.skills-container{
+  width: 75%;
+  height: 200px;
+  padding: 250px 200px;
+}
+
+.skills-container h1{
+  text-align: center;
+}
+
+.skills-container p{
+  text-align: center;
+}
