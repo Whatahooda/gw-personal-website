@@ -64,7 +64,7 @@ header{
 .logo{
   float: left;
   width: 200px;
-  height: 100px;
+  height: 50px;
 }
 
 .logo h1{
@@ -251,7 +251,7 @@ header{
   height: 100%;
   position: relative;
   left: 0px;
-  top: 50px;
+  top: 75px;
 }
 
 #contact form div{
@@ -292,7 +292,7 @@ header{
   float: left;
   color: #eee;
   position: relative;
-  top: 50px;
+  top: 100px;
   left: 50px;
 }
 
