@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Christian.B's Portfolio</title>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/main.css">
   </head>
@@ -36,7 +37,15 @@
             </li>
 
             <li>
-              <a href="#">Contact</a>
+              <a href="#quotes">Quotes</a>
+            </li>
+
+            <li>
+              <a href="#portfolio">Portfolio</a>
+            </li>
+
+            <li>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -47,6 +56,7 @@
       <!-- Home -->
       <section id="home">
         <div class="home-container">
+
           <article>
             <h1>Values</h1>
             <p>
@@ -75,45 +85,48 @@
 
       <!-- About -->
       <section id="about">
-        <div class="about-picture">
-
-        </div>
-
-        <div class="about-info">
-          <div class="about-me">
-            <h1>About Me</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
+        <div class="about-container">
+          <div class="about-picture">
+            <!-- FILLER!!! -->
           </div>
 
-          <article class="top">
-            <h1>Web Design</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-          </article>
+          <div class="about-info">
+            <div class="about-me">
+              <h1>About Me</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
 
-          <article class="top">
-            <h1>Online Marketing</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-          </article>
+            <article class="top">
+              <h1>Web Design</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </article>
 
-          <article class="bottom">
-            <h1>Graphic Design</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-          </article>
+            <article class="top">
+              <h1>Online Marketing</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </article>
 
-          <article class="bottom">
-            <h1>SEO</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-          </article>
+            <article class="bottom">
+              <h1>Graphic Design</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </article>
+
+            <article class="bottom">
+              <h1>SEO</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </article>
+
+          </div>
         </div>
       </section>
       <!-- About Ends -->
@@ -130,27 +143,113 @@
       </section>
       <!-- Skills End -->
 
-      <!-- Testimonials -->
-      <section id="testimonials">
-
+      <!-- Quotes -->
+      <section id="quotes">
+        <div class="quotes-container">
+          <p>
+            "Don't look at the world as it is, but dare to see it as it could be."
+          </p>
+          <h1>Someone Somewhere</h1>
+        </div>
       </section>
-      <!-- Testimonials End -->
+      <!-- Quotes End -->
 
       <!-- Portfolio -->
       <section id="portfolio">
+        <div class="portfolio-top-container">
+          <h1>Portfolio</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+        </div>
 
+        <div class="portfolio-picture-container">
+          <img src="img/portfolio-computer.jpg">
+          <img src="img/portfolio-design.jpg">
+        </div>
       </section>
       <!-- Portfolio Ends -->
 
       <!-- Contact -->
       <section id="contact">
 
+        <div class="info-box">
+          <h1>Contact Me</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+          <div class="place">
+            <p>123 45th Street North</p>
+            <p>North Fork, CA</p>
+            <p>A1B 2C3</p>
+          </div>
+
+          <div class="contact-info">
+            <p>Email:<span>whatahooda@gmail.com</span></p>
+            <p>Phone:<span>(123)456-7890</span></p>
+          </div>
+        </div>
+
+        <div class="form-box">
+
+          <form action="submit" method="post">
+
+            <div>
+              <h1>Name*</h1>
+              <input type="text" placeholder=""/>
+            </div>
+
+            <div>
+              <h1>Email*</h1>
+              <input type="email" placeholder=""/>
+            </div>
+
+            <div>
+              <h1>Message*</h1>
+              <textarea></textarea>
+            </div>
+
+            <div>
+              <button type="submit">Contact Me</button>
+            </div>
+
+          </form>
+        </div>
       </section>
       <!-- Contact Ends -->
 
       <!-- Footer -->
       <footer>
+        <div class="copyright">
+          <h1>Copyright 2016 Christian</h1>
+        </div>
 
+        <div class="sm-icons">
+          <div class="icon">
+            <a href="#">
+              <i class="fa fa-facebook"></i>
+            </a>
+          </div>
+
+          <div class="icon">
+            <a href="#">
+              <i class="fa fa-github"></i>
+            </a>
+          </div>
+
+          <div class="icon">
+            <a href="#">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </div>
+
+          <div class="icon">
+            <a href="#">
+              <i class="fa fa-linkedin"></i>
+            </a>
+          </div>
+
+        </div>
       </footer>
       <!-- Footer End -->
 
